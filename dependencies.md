@@ -1,5 +1,5 @@
 # Google Apps Script Project: libraryAddonTest
-This repo (libraryAddonTest) was automatically updated on 27 July 2016 10:36:50 BST by GasGit
+This repo (libraryAddonTest) was automatically updated on 31 October 2018 11:41:56 GMT by GasGit
 
 For more information see the [desktop liberation site](http://ramblings.mcpher.com/Home/excelquirks/drivesdk/gettinggithubready "desktop liberation") or [contact me on G+](https://plus.google.com/+BruceMcpherson "Bruce McPherson - GDE")
 ## Details for Apps Script project libraryAddonTest
@@ -16,19 +16,22 @@ App| server_js
 main.js| html
 index| html
 styles.css| html
+appsscript| json
 ### Directly referenced libraries
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
-cUseful| cUseful|Mcbr-v4SsYKJP7JMohttAZyz3TLx7pV4j|41|no|[here](libraries/cUseful "library source")
-cCrossFilter| cCrossFilter|MiJioS42QSt1QfS2s0sHuNyz3TLx7pV4j|2|no|[here](libraries/cCrossFilter "library source")
-sjclEncryption| sjclEncryption|MphGZav4pHGf9EQx-JdmO7yz3TLx7pV4j|6|no|[here](libraries/sjclEncryption "library source")
+cUseful| cUseful|1EbLSESpiGkI3PYmJqWh3-rmLkYKAtCNPi1L2YCtMgo2Ut8xMThfJ41Ex|41|no|[here](libraries/cUseful "library source")
+cCrossFilter| cCrossFilter|1vDoh4PMd5hTYtvAMCh9KuCe7N1ab9zKnD15IFn4SIMDYYMODTj8Mx_Dr|2|no|[here](libraries/cCrossFilter "library source")
+sjclEncryption| sjclEncryption|19dEhJYSTE3oqvvjtbrVQAxGd9PPAtSP4Uv_KvBHE7qeug4vu2BSOAJEN|6|no|[here](libraries/sjclEncryption "library source")
 ### All dependencies and sub dependencies
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
-cUseful| cUseful|Mcbr-v4SsYKJP7JMohttAZyz3TLx7pV4j|41|no|[here](libraries/cUseful "library source")
-cCrossFilter| cCrossFilter|MiJioS42QSt1QfS2s0sHuNyz3TLx7pV4j|2|no|[here](libraries/cCrossFilter "library source")
-sjclEncryption| sjclEncryption|MphGZav4pHGf9EQx-JdmO7yz3TLx7pV4j|6|no|[here](libraries/sjclEncryption "library source")
+cUseful| cUseful|1EbLSESpiGkI3PYmJqWh3-rmLkYKAtCNPi1L2YCtMgo2Ut8xMThfJ41Ex|41|no|[here](libraries/cUseful "library source")
+cCrossFilter| cCrossFilter|1vDoh4PMd5hTYtvAMCh9KuCe7N1ab9zKnD15IFn4SIMDYYMODTj8Mx_Dr|2|no|[here](libraries/cCrossFilter "library source")
+sjclEncryption| sjclEncryption|19dEhJYSTE3oqvvjtbrVQAxGd9PPAtSP4Uv_KvBHE7qeug4vu2BSOAJEN|6|no|[here](libraries/sjclEncryption "library source")
 ### Enabled Google Services
 no libraries discovered
-###Need more detail ?
+### Scopes required
+no scopes discovered
+### Need more detail ?
 You can see [full project info as json here](info.json)
