@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- styles -->
+<?!= HtmlService.createHtmlOutputFromFile('styles.css').getContent(); ?>
+
+<h2>measure library effect</h2>
+<div class="content">
+
+  <div class="block">
+    <label for="parallel">How many instances to run at once</label>
+    <select class="block" id="parallel">
+    <option value=1>1</option>
+    <option value=5>5</option>
+    <option value=10>10</option>
+    <option value=20 selected>20</option>
+    </select>
+  </div>  
+
+  <div class="block">
+    <button class="action" id="test">Test</button>
+    <button onclick="google.script.host.close()">Close</button>
+  </div>
+
+</div>
+
+<div class = "block">
+  <div id="message" class="message"></div>
+</div>
+
+<!-- javascript. -->
+<?!= requireJs(['main']); ?>
+<?!= requireGs(['Client','Server','App']); ?>
+
+
+
+
+
+
